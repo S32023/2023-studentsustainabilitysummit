@@ -1,0 +1,48 @@
+.welcome{
+    .container{ //this is so we can use flexbox for desktop version
+        @include breakpoint-up(large){
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__text{
+
+        h4{
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+        }
+        
+        p{
+            margin-top: 0px;
+            color: $black;
+        }
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 2;
+            text-align: left;
+            margin-right: 5.3125rem;
+
+        }
+
+    }
+
+    &__map{
+        img{
+            min-height: 15.625rem;
+            max-height: 21.875rem;
+        }
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 1;
+            margin-right: 5.3125rem;
+        }
+    }
+
+
+
+    
+}
