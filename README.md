@@ -13,6 +13,7 @@ This is a student-led project exposing students from all backgrounds to sustaina
 ## Continued development (Top of the list is highest priority)
 
 ### Urgent:
+- Add videos for each speaker on speaker page
 - Add speaker images speaker page
 - Add talk titles and abstracts for pop ups on speaker page
 - Add new members on teams page [I think we are up to date]
